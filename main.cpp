@@ -9,6 +9,11 @@ public:
   ~FooString(){
     delete[] buf;
   };
-  void show(){};
-  int lenght(){};
+  void show(a){
+    cout << a;
+  };
+  int lenght(char* a){
+    int count;
+    for(int i=0; 
+  };
 }
